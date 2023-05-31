@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 8px #333;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    font-size: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
